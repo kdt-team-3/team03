@@ -782,3 +782,24 @@ audio, canvas, embed, iframe, img, object, svg, video {
     display: block;
     vertical-align: middle;
 } */
+
+.mt-\[3px\] {
+    margin-top: 3px;
+}
+.gap-x-\[4px\] {
+    column-gap: 4px;
+}
+.font_label_regular_md {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+.w-\[18px\] {
+    width: 18px;
+}
+.h-\[18px\] {
+    height: 18px;
+}
+.mt-\[6px\] {
+    margin-top: 6px;
+}
