@@ -41,15 +41,205 @@
                             <span class="font_headline_bold_md md:font_display_bold_sm content_primary cursor-pointer">포스트</span>
                         </div>
                     </div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+
+                    <div style="height: 18px;"></div>
+
+                    <div class="relative">
+                        <div class="swiper swiper-initialized swiper-horizontal swiper-pointer-events" style="position: static;" draggable="true">
+                            <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+                                <div class="swiper-slide !w-auto !ml-[16px] md:!ml-[0] swiper-slide-active" style="margin-right: 12px;">
+                                    <li class="shrink-0">
+                                        <div>
+                                            <button aria-label="category chip" class="relative h-[32px] rounded-full px-[12px] surface_primary_inverse content_primary_inverse font_label_regular_lg" type="button">
+                                                전체
+                                            </button>
+                                        </div>
+                                    </li>
+                                </div>
+
+                                <div class="swiper-slide !w-auto swiper-slide-next" style="margin-right: 12px;">
+                                    <li class="shrink-0">
+                                        <div>
+                                            <button aria-label="category chip" class="relative h-[32px] rounded-full px-[12px] surface_primary content_primary font_label_regular_lg border border_primary" type="button">
+                                                웹툰 · 만화
+                                            </button>
+                                        </div>
+                                    </li>
+                                </div>
+
+                                <div class="swiper-slide !w-auto" style="margin-right: 12px;">
+                                    <li class="shrink-0">
+                                        <div>
+                                            <button aria-label="category chip" class="relative h-[32px] rounded-full px-[12px] surface_primary content_primary font_label_regular_lg border border_primary" type="button">
+                                                글 · 저널리즘
+                                            </button>
+                                        </div>
+                                    </li>
+                                </div>
+
+                                <div class="swiper-slide !w-auto" style="margin-right: 12px;">
+                                    <li class="shrink-0">
+                                        <div>
+                                            <button aria-label="category chip" class="relative h-[32px] rounded-full px-[12px] surface_primary content_primary font_label_regular_lg border border_primary" type="button">
+                                                영상 제작
+                                            </button>
+                                        </div>
+                                    </li>
+                                </div>
+
+                                <div class="swiper-slide !w-auto" style="margin-right: 12px;">
+                                    <li class="shrink-0">
+                                        <div>
+                                            <button aria-label="category chip" class="relative h-[32px] rounded-full px-[12px] surface_primary content_primary font_label_regular_lg border border_primary" type="button">
+                                                일러스트
+                                            </button>
+                                        </div>
+                                    </li>
+                                </div>
+
+                                <div class="swiper-slide !w-auto" style="margin-right: 12px;">
+                                    <li class="shrink-0">
+                                        <div>
+                                            <button aria-label="category chip" class="relative h-[32px] rounded-full px-[12px] surface_primary content_primary font_label_regular_lg border border_primary" type="button">
+                                                음악
+                                            </button>
+                                        </div>
+                                    </li>
+                                </div>
+
+                                <div class="swiper-slide !w-auto" style="margin-right: 12px;">
+                                    <li class="shrink-0">
+                                        <div>
+                                            <button aria-label="category chip" class="relative h-[32px] rounded-full px-[12px] surface_primary content_primary font_label_regular_lg border border_primary" type="button">
+                                                예술
+                                            </button>
+                                        </div>
+                                    </li>
+                                </div>
+
+                                <div class="swiper-slide !w-auto" style="margin-right: 12px;">
+                                    <li class="shrink-0">
+                                        <div>
+                                            <button aria-label="category chip" class="relative h-[32px] rounded-full px-[12px] surface_primary content_primary font_label_regular_lg border border_primary" type="button">
+                                                게임
+                                            </button>
+                                        </div>
+                                    </li>
+                                </div>
+
+                                <div class="swiper-slide !w-auto" style="margin-right: 12px;">
+                                    <li class="shrink-0">
+                                        <div>
+                                            <button aria-label="category chip" class="relative h-[32px] rounded-full px-[12px] surface_primary content_primary font_label_regular_lg border border_primary" type="button">
+                                                제품 · 브랜드
+                                            </button>
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+
+                            <button aria-label="prev button" class="absolute z-[5] w-[32px] h-[32px] rounded-full surface_primary items-center justify-center left-[-16px] hidden" style="box-shadow:0px 1px 4px rgba(0, 0, 0, 0.25), 0px 4px 5px rgba(0, 0, 0, 0.1);top:0" type="button">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[16px] h-[16px] content_primary">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.58 3.27c.504.405.563 1.115.13 1.587L9.168 12l6.543 7.143a1.076 1.076 0 0 1-.13 1.586 1.26 1.26 0 0 1-1.695-.122L6 12l7.885-8.607a1.26 1.26 0 0 1 1.695-.122Z">
+                                    </path>
+                                </svg>
+                            </button>
+
+                            <button aria-label="next button" class="absolute z-[5] w-[32px] h-[32px] rounded-full surface_primary items-center justify-center right-[-16px] hidden md:flex" style="box-shadow:0px 1px 4px rgba(0, 0, 0, 0.25), 0px 4px 5px rgba(0, 0, 0, 0.1);top:0" type="button">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[16px] h-[16px] content_primary">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.42 20.73a1.076 1.076 0 0 1-.13-1.587L14.832 12 8.289 4.857a1.076 1.076 0 0 1 .13-1.586 1.26 1.26 0 0 1 1.696.122L18 12l-7.885 8.607a1.26 1.26 0 0 1-1.695.122Z">
+                                    </path>
+                                </svg>
+                            </button>
+
+                        </div>
+                    </div>
+                    
+                    <div style="height: 22px;"></div>
                 </div>
 
             </div>
 
 
-            <div class="mx-auto"></div>
+            <div class="mx-auto max-w-main min-h-screen">
+                <div class="px-[16px] md:px-0">
+                    <div class="relative p-[16px] mobile:py-[20px] mobile:px-[26px] rounded-[10px] surface_accent_light">
+                        <a class="block max-w-[231px] mobile:max-w-[100%] keep-all font_label_regular_xl content_primary" href="https://idus.notion.site/087e1b747e364ba69d900a4e32556425?pvs=4" rel="noreferrer" target="_blank">
+                            읽고 싶은 작품에서 필요한 자료까지 판매되는 포스트를 골라 구매하세요.
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="inline align-middle w-[14px] h-[14px]">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.42 20.73a1.076 1.076 0 0 1-.13-1.587L14.832 12 8.289 4.857a1.076 1.076 0 0 1 .13-1.586 1.26 1.26 0 0 1 1.696.122L18 12l-7.885 8.607a1.26 1.26 0 0 1-1.695.122Z">
+                                </path>
+                            </svg>
+                        </a>
+                        <button class="absolute top-[12px] right-[12px]" type="button">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[16px] h-[16px] content_quaternary">
+                                <path d="M5.707 5.707a1 1 0 0 0 0 1.414l4.95 4.95-4.95 4.95a1 1 0 1 0 1.414 1.414l4.95-4.95 4.95 4.95a1 1 0 0 0 1.414-1.414l-4.95-4.95 4.95-4.95a1 1 0 1 0-1.414-1.414l-4.95 4.95-4.95-4.95a1 1 0 0 0-1.414 0Z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div style="height: 12px;"></div>
+
+                <div class="flex items-center justify-between h-[44px] px-[16px] md:p-0">
+                    <h5 class="font_title_bold_md">포스트 <!-- -->154</h5>
+                    <div class="relative">
+                        <button aria-label="filter" class="surface_primary false border_black_opacity rounded-[16px] flex items-center max-w-[164px] outline-none" type="button">
+                            <span class="content_secondary font_label_medium_lg text-ellipsis overflow-hidden whitespace-nowrap">
+                                인기
+                            </span>
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="shrink-0 ml-[4px] w-[10px] h-[10px]">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.27 8.42a1.076 1.076 0 0 1 1.587-.13L12 14.832l7.143-6.544a1.076 1.076 0 0 1 1.586.13 1.26 1.26 0 0 1-.122 1.696L12 18l-8.607-7.885A1.26 1.26 0 0 1 3.27 8.42Z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="px-[16px] md:px-0">
+                    <ul class="flex flex-col col-span-full">
+                        <li class="py-[20px] md:py-[24px] border-t first:border-0 border_secondary">
+                            <div>
+
+                                <button aria-label="post card" class="block text-left w-full" type="button">
+                                    <div class="flex gap-x-[16px]">
+                                        <div class="w-full h-[73px] xl:h-auto break-all">
+                                            <h2 class="overflow-hidden font_title_bold_md xl:font_title_bold_lg content_secondary text-ellipsis-1">
+                                                [MATOMA 시리즈] MATOMA 파우치(그림도안/영상)
+                                            </h2>
+                                            <p class="mt-[4px] mb-[18px] xl:mt-[6px] overflow-hidden font_label_regular_lg content_quaternary text-ellipsis-1 xl:text-ellipsis-2">
+                                                MATOMA 파우치 [사용 실] 착하면 002 크림바닐라 착하면 034 샐러리 착하면 053 밝은 빨강 착하면 042 아쿠아 [사용 바늘] 코바늘 4.0mm 7호 [사용 기법] 매직링, 사슬, 빼뜨기, 짧은뜨기, 늘려뜨기, 긴뜨기, 한길긴뜨기, 두길긴뜨기 [기호 설명]
+                                            </p>
+                                        </div>
+                                        <div class="shrink-0 relative w-[72px] md:w-[90px] h-[72px] md:h-[90px] rounded-[8px]">
+                                            <img alt="[MATOMA 시리즈] MATOMA 파우치(그림도안/영상)" sizes="(max-width: 500px) 72px, 90px" srcset="/_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2Fa221f3db-2290-4fb9-9c19-ca58aa52385c%2FcreatorPostImage%2Fcb4112ab-f2d3-4c7c-816f-a37eb9d7ea5b.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=16&amp;q=75 16w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2Fa221f3db-2290-4fb9-9c19-ca58aa52385c%2FcreatorPostImage%2Fcb4112ab-f2d3-4c7c-816f-a37eb9d7ea5b.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=32&amp;q=75 32w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2Fa221f3db-2290-4fb9-9c19-ca58aa52385c%2FcreatorPostImage%2Fcb4112ab-f2d3-4c7c-816f-a37eb9d7ea5b.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=48&amp;q=75 48w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2Fa221f3db-2290-4fb9-9c19-ca58aa52385c%2FcreatorPostImage%2Fcb4112ab-f2d3-4c7c-816f-a37eb9d7ea5b.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=64&amp;q=75 64w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2Fa221f3db-2290-4fb9-9c19-ca58aa52385c%2FcreatorPostImage%2Fcb4112ab-f2d3-4c7c-816f-a37eb9d7ea5b.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=96&amp;q=75 96w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2Fa221f3db-2290-4fb9-9c19-ca58aa52385c%2FcreatorPostImage%2Fcb4112ab-f2d3-4c7c-816f-a37eb9d7ea5b.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=128&amp;q=75 128w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2Fa221f3db-2290-4fb9-9c19-ca58aa52385c%2FcreatorPostImage%2Fcb4112ab-f2d3-4c7c-816f-a37eb9d7ea5b.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=256&amp;q=75 256w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2Fa221f3db-2290-4fb9-9c19-ca58aa52385c%2FcreatorPostImage%2Fcb4112ab-f2d3-4c7c-816f-a37eb9d7ea5b.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=384&amp;q=75 384w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2Fa221f3db-2290-4fb9-9c19-ca58aa52385c%2FcreatorPostImage%2Fcb4112ab-f2d3-4c7c-816f-a37eb9d7ea5b.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=500&amp;q=75 500w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2Fa221f3db-2290-4fb9-9c19-ca58aa52385c%2FcreatorPostImage%2Fcb4112ab-f2d3-4c7c-816f-a37eb9d7ea5b.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=768&amp;q=75 768w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2Fa221f3db-2290-4fb9-9c19-ca58aa52385c%2FcreatorPostImage%2Fcb4112ab-f2d3-4c7c-816f-a37eb9d7ea5b.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=1024&amp;q=75 1024w" src="/_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2Fa221f3db-2290-4fb9-9c19-ca58aa52385c%2FcreatorPostImage%2Fcb4112ab-f2d3-4c7c-816f-a37eb9d7ea5b.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=1024&amp;q=75" decoding="async" data-nimg="fill" class="rounded-[8px]" loading="lazy" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+                                            <div class="absolute top-0 left-0 w-full h-full border border_black_opacity rounded-[8px]">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="flex items-center mt-[12px]">
+                                            <div class="font_label_regular_md flex items-center gap-x-[2px]">
+                                                <span class="content_secondary break-all line-clamp-1 lg:max-w-full">임금손</span>
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[8px] h-[8px] content_disabled"><circle cx="12" cy="12" r="4"></circle></svg>
+                                                <span class="shrink-0 content_quaternary">2023. 10. 6.</span>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="flex items-center mt-[3px]"
+                                        ></div>
+                                    </div>
+                                </button>
+
+                            </div>
+                        </li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
 
         </div>
 
