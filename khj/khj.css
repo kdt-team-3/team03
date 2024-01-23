@@ -1,23 +1,274 @@
-html {
-    line-height: 1.5;
-    -webkit-text-size-adjust: 100%;
-    tab-size: 4;
-    font-family: Pretendard,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-}   
-
-.studio-creater {
+/* body */
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+.h-full {
+    height: 100%;
+}
+body {
+    margin: 0;
+    line-height: inherit;
+}
+/* nav */
+.justify-between {
+    justify-content: space-between;
+}
+.items-center {
+    align-items: center;
+}
+.w-full {
+    /* width: 100%; */
+}
+.flex {
+    display: flex;
+}
+.z-20 {
+    z-index: 20;
+}
+.sticky {
+    position: sticky;
+}
+.surface_primary {
+    background-color: #fff;
+}
+.lg\:h-\[58px\] {
+    height: 58px;
+}
+.lg\:px-\[32px\] {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+/* logo */
+.w-\[96px\] {
+    width: 96px;
+}
+.content_primary {
+    color: #1D1D1E;
+    fill: #1D1D1E;
+}
+/* 오른쪽 검색/로그인/스튜디오 만들기 */
+.justify-end {
+    justify-content: flex-end;
+}
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+/* 오른쪽 메뉴 안쪽 div */
+.gap-x-\[16px\] {
+    column-gap: 16px;
+}
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+/* 검색 버튼 */
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+    background-image: none;
+}
+[role=button], button {
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+/* 로그인 버튼 */
+.px-\[15px\] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.border-solid {
+    border-style: solid;
+}
+.border {
+    border-width: 1px;
+}
+.rounded-\[16px\] {
+    border-radius: 16px;
+}
+.justify-center {
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+.h-\[32px\] {
+    height: 32px;
+}
+.flex {
+    display: flex;
+}
+.relative {
+    position: relative;
+}
+.font_button_bold_md {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+.border_black_opacity {
+    border-color: rgba(0,0,0,.1);
+}
+.content_secondary {
+    color: #333334;
+    fill: #333334;
+}
+.surface_primary {
+    background-color: #fff;
+}
+/* 스튜디오 만들기 */
+.lg\:block {
+    display: block;
+}
+.px-\[16px\] {
     padding-left: 16px;
     padding-right: 16px;
 }
-.font_headline {
+.rounded-\[16px\] {
+    border-radius: 16px;
+}
+.justify-center {
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+.h-\[32px\] {
+    height: 32px;
+}
+.flex {
+    display: flex;
+}
+.relative {
+    position: relative;
+}
+.font_button_bold_md {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+.content_primary_inverse {
+    color: #fff;
+    fill: #fff;
+}
+.surface_primary_inverse {
+    background-color: #1D1D1E;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+    background-image: none;
+}
+[role=button], button {
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+button {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    padding-block: 1px;
+    padding-inline: 6px;}
+*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid #E5E7EB;
+}
+/* main */
+
+/* 글자 */
+.px-\[16px\] {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.max-w-main {
+    max-width: 720px;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.relative {
+    position: relative;
+}
+
+.surface_primary {
+    background-color: #fff;
+}
+
+main {
+    display: block;
+}
+
+body {
+    line-height: inherit;
+}
+
+.font_headline_bold_sm {
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
 }
 
-.studio-creater {
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.md\:px-\[16px\] {
     padding-left: 16px;
     padding-right: 16px;
+}
+
+.md\:mt-\[18px\] {
+    margin-top: 18px;
+}
+
+.relative {
+    position: relative;
+}
+/* 메뉴 리스트 */
+.swiper-pointer-events {
+    touch-action: pan-y;
 }
 
 .swiper {
@@ -40,9 +291,49 @@ html {
     box-sizing: content-box;
 }
 
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
+/* 버튼 */
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.w-\[32px\] {
+    width: 32px;
+}
+
+.h-\[32px\] {
+    height: 32px;
+}
+
+.px-\[12px\] {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.font_label_bold_lg {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.content_primary_inverse {
+    color: #fff;
+    fill: #fff;
+}
+
+.surface_primary_inverse {
+    background-color: #1d1d1e;
+}
+
+button, select {
+    text-transform: none;
 }
 
 button, input, optgroup, select, textarea {
