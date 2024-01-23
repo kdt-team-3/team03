@@ -709,6 +709,11 @@ img, video {
     max-width: 100%;
     height: auto;
 }
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
 /* audio, canvas, embed, iframe, img, object, svg, video {
     display: block;
     vertical-align: middle;
