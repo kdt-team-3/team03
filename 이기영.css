@@ -1,0 +1,16 @@
+mian.style__HeaderLayoutn-sc-76u73h-0 ihPEBy {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    -webkit-box-pack: center;
+    justify-content: center;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 6px;
+}
+
+@media only screen and (min-width: 992px)
+main.ihPEBy {
+    padding: 0px 20px;
+}
