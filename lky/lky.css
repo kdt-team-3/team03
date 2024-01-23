@@ -204,6 +204,12 @@
     align-items: center;
 }
 
+.goKAXE {
+    display: flex;
+    min-width: 48px;
+    transform: scale(0.5);
+}
+
 .eWDpEZ {
     padding: 0px 6px;
     min-height: 56px;
