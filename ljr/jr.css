@@ -1,10 +1,13 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
 /* 상단메뉴 */
 html {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
     tab-size: 4;
-    font-family: Pretendard,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-family: Pretendard, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
+
 .overflow-x-hidden {
     overflow-x: hidden;
 }
@@ -275,7 +278,11 @@ select {
     text-transform: none;
 }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
     font-family: inherit;
     color: inherit;
     margin: 0;
@@ -384,8 +391,7 @@ body {
 }
 
 /* flex-1 px-0  이미지 크기 */
-element.style {
-}
+element.style {}
 
 .px-0 {
     padding-left: 0;
@@ -396,7 +402,9 @@ element.style {
     flex: 1 1 0%;
 }
 
-*, :after, :before {
+*,
+:after,
+:before {
     box-sizing: border-box;
     border: 0 solid #e5e7eb;
 }
@@ -427,10 +435,12 @@ element.style {
 }
 
 .border_black_opacity {
-    border-color: rgba(0,0,0,.1);
+    border-color: rgba(0, 0, 0, .1);
 }
 
-*, :after, :before {
+*,
+:after,
+:before {
     box-sizing: border-box;
     border: 0 solid #e5e7eb;
 }
@@ -438,6 +448,7 @@ element.style {
 div {
     display: block;
 }
+
 /* 이미지 div class="mb - [20px] */
 element.style {
     position: relative;
@@ -451,16 +462,22 @@ element.style {
 .border {
     border-width: 1px;
 }
+
 .h-\[380px\] {
     height: 380px;
 }
+
 .mb-\[20px\] {
     margin-bottom: 20px;
 }
+
 .border_black_opacity {
-    border-color: rgba(0,0,0,.1);
+    border-color: rgba(0, 0, 0, .1);
 }
-*, :after, :before {
+
+*,
+:after,
+:before {
     box-sizing: border-box;
     border: 0 solid #e5e7eb;
 }
@@ -483,17 +500,27 @@ element.style {
     color: transparent;
 }
 
-img, video {
+img,
+video {
     max-width: 100%;
     height: auto;
 }
 
-audio, canvas, embed, iframe, img, object, svg, video {
+audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
     display: block;
     vertical-align: middle;
 }
 
-*, :after, :before {
+*,
+:after,
+:before {
     box-sizing: border-box;
     border: 0 solid #e5e7eb;
 }
@@ -502,4 +529,3 @@ img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
-
