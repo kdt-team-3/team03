@@ -75,52 +75,312 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>  
+        </div> 
 
-    <main class="flex flex-col relative max-w-main min-w-screen min-w-[320px] w-full mx-auto surface_primary">
-        <div class="flex justify-around">
-            <button class="flex items-center justify-center w-full h-[43px] font_label_bold_xl relative border-b-[1px] border_primary box-border content_primary" value="/">
-                소개
-                <span class="flex absolute bottom-[-1px] left-[0] w-full h-[1.6px] transform surface_secondary_inverse"></span>
-            </button>
-            <button class="flex items-center justify-center w-full h-[43px] font_label_bold_xl relative border-b-[1px] border_primary box-border content_disabled" value="/posts">
-                <div class="relative">포스트</div>
-            </button>
-            <button class="flex items-center justify-center w-full h-[43px] font_label_bold_xl relative border-b-[1px] border_primary box-border content_disabled" value="/community">
-                <div class="relative">커뮤니티</div>
-            </button>
-        </div>
+        <main class="flex flex-col relative max-w-main min-w-screen min-w-[320px] w-full mx-auto surface_primary">
+            <div class="flex justify-around">
+                <button class="flex items-center justify-center w-full h-[43px] font_label_bold_xl relative border-b-[1px] border_primary box-border content_primary" value="/">
+                    소개
+                    <span class="flex absolute bottom-[-1px] left-[0] w-full h-[1.6px] transform surface_secondary_inverse"></span>
+                </button>
+                <button class="flex items-center justify-center w-full h-[43px] font_label_bold_xl relative border-b-[1px] border_primary box-border content_disabled" value="/posts">
+                    <div class="relative">포스트</div>
+                </button>
+                <button class="flex items-center justify-center w-full h-[43px] font_label_bold_xl relative border-b-[1px] border_primary box-border content_disabled" value="/community">
+                    <div class="relative">커뮤니티</div>
+                </button>
+            </div>
 
-        <div class="py-[20px] px-[16px]">
-            <div style="height:12px"></div>
-            <div>
-                <h4 class="font_label_bold_xl content_primary mb-[16px]">크리에이터 소개</h4>
-                <div class="relative">
-                    <div class="creator-description h-[auto] overflow-hidden">
-                        <p>카카오톡 이모티콘 '똘망똘망 다람이' 관련 다양한 아트웍과 소식이 업로드 됩니다. 똘망똘망 다람이를 좋아하는 사람은 모두 여기로 모여라!</p>
+            <div class="py-[20px] px-[16px]">
+                <div style="height:12px"></div>
+                <div>
+                    <h4 class="font_label_bold_xl content_primary mb-[16px]">크리에이터 소개</h4>
+                    <div class="relative">
+                        <div class="creator-description h-[auto] overflow-hidden">
+                            <p>카카오톡 이모티콘 '똘망똘망 다람이' 관련 다양한 아트웍과 소식이 업로드 됩니다. 똘망똘망 다람이를 좋아하는 사람은 모두 여기로 모여라!</p>
+                        </div>
+                    </div>
+                </div>    
+                <div>
+                    <h4 class="font_label_bold_xl content_primary mb-[16px]">
+                        <div class="mt-[40px] flex items-center justify-between">
+                            <span>최근 포스트</span>
+                            <a class="font_label_regular_lg content_quaternary" href="/creator/daram/posts">전체보기</a>
+                        </div>
+                    </h4>
+                    <ul class="flex flex-col gap-y-[12px]">
+                        <ul class="flex flex-col col-span-full mt-[8px]">
+                            <div class="flex flex-col col-span-full"></div>
+                            <li class="py-[20px] border-t first:pt-[8px] first:border-0 border_secondary" style="list-style-type: none;">
+                                <div>
+                                    <button aria-label="post card" class="block text-left w-full" type="button">
+                                        <div class="flex gap-x-[16px]">
+                                            <div class="w-full h-[73px] xl:h-auto break-all">
+                                                <h2 class="overflow-hidden font_title_bold_md xl:font_title_bold_lg content_secondary text-ellipsis-1">[이모티콘] 제안 소식</h2>
+                                                <p class="mt-[4px] mb-[18px] xl:mt-[6px] overflow-hidden font_label_regular_lg content_quaternary text-ellipsis-1 xl:text-ellipsis-2">멤버공개 글입니다.</p>
+                                            </div>
+                                            <div class="shrink-0 relative w-[72px] md:w-[90px] h-[72px] md:h-[90px] rounded-[8px]">
+                                                <img src="https://steadio.co/_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2Ff2841959-7a0e-408a-91a5-820fbfa8e20c.png%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&w=128&q=75" alt="[이모티콘] 제안 소식" sizes="(max-width: 500px) 72px, 90px"  decoding="async" data-nimg="fill" class="rounded-[8px]" loading="lazy" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+                                                <div class="absolute top-0 left-0 w-full h-full border border_black_opacity rounded-[8px]"></div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div>
+                                            <div class="flex items-center mt-[12px]">
+                                                <div class="font_label_regular_md flex items-center gap-x-[2px]">
+                                                    <span class="content_secondary break-all line-clamp-1 lg:max-w-full">똘망똘망 다람이</span>
+                                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[8px] h-[8px] content_disabled">
+                                                        <circle cx="12" cy="12" r="4"></circle>
+                                                    </svg>
+                                                    <span class="shrink-0 content_quaternary">2024. 1. 16.</span>
+                                                </div>
+                                            </div>
+                                            <div class="flex items-center mt-[3px]">
+                                                <div class="font_label_regular_md flex items-center gap-x-[4px]">
+                                                    <svg width="16" height="12" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary mt-[6px]">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.603 6c-.504-.632-1.347-1.59-2.407-2.436C10.92 2.546 9.468 1.8 8.001 1.8s-2.92.746-4.195 1.764C2.746 4.41 1.903 5.368 1.399 6c.504.632 1.347 1.59 2.407 2.435C5.082 9.454 6.534 10.2 8 10.2s2.92-.746 4.195-1.765C13.256 7.59 14.1 6.632 14.603 6Zm1.204.405a.666.666 0 0 0 0-.81C14.86 4.338 11.723.6 8.002.6 4.278.6 1.142 4.34.194 5.594a.666.666 0 0 0 0 .811C1.142 7.661 4.278 11.4 8.001 11.4c3.723 0 6.859-3.74 7.806-4.995Z" fill="#8A8A8B"></path>
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.896 5.925a2.925 2.925 0 1 1-5.85 0 2.925 2.925 0 0 1 5.85 0ZM7.97 7.65a1.725 1.725 0 1 0 0-3.45 1.725 1.725 0 0 0 0 3.45Z" fill="#8A8A8B"></path>
+                                                    </svg>
+                                                    <span class="shrink-0 content_quaternary">46</span>
+                                                    <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary">
+                                                        <path clip-rule="evenodd" d="M8.144 13.563v2l2.543-2h2.396a2.74 2.74 0 0 0 2.741-2.74V7.073a2.74 2.74 0 0 0-2.74-2.74h-6.01a2.74 2.74 0 0 0-2.74 2.74v4.012a2.477 2.477 0 0 0 2.477 2.477h1.333Zm-.104 3.778a.815.815 0 0 1-1.23-.702v-1.743A3.81 3.81 0 0 1 3 11.086V7.074A4.074 4.074 0 0 1 7.074 3h6.01a4.074 4.074 0 0 1 4.073 4.074v3.748a4.074 4.074 0 0 1-4.074 4.074h-1.935L8.04 17.341Z"></path>
+                                                        <path d="M8.167 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0ZM10.667 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0ZM13.167 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0Z"></path>
+                                                    </svg>
+                                                    <span class="shrink-0 content_quaternary">6</span>
+                                                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 5.406 8.616 4.141c-1.383-1.266-3.682-.982-4.941.422-1.581 1.687-1.582 4.543.092 6.328l5.535 5.487a.988.988 0 0 0 1.396 0l5.535-5.487c1.674-1.785 1.674-4.64.092-6.328-1.259-1.404-3.558-1.688-4.941-.422L10 5.406Zm2.284-.281L10 7.214l-2.284-2.09c-.75-.685-2.203-.615-3.049.329l-.01.01-.01.011c-1.079 1.152-1.117 3.198.077 4.49L10 15.191l5.276-5.229c1.194-1.291 1.156-3.336.076-4.489l-.01-.01-.01-.011c-.846-.944-2.299-1.014-3.048-.328Z"></path>
+                                                    </svg>
+                                                    <span class="shrink-0 content_quaternary">13</span>
+                                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[8px] h-[8px] content_disabled">
+                                                        <circle cx="12" cy="12" r="4"></circle>
+                                                    </svg>
+                                                    <span class="shrink-0 content_quaternary">멤버 공개</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="py-[20px] border-t first:pt-[8px] first:border-0 border_secondary" style="list-style-type: none;">
+                                <div>
+                                    <button aria-label="post card" class="block text-left w-full" type="button">
+                                        <div class="flex gap-x-[16px]">
+                                            <div class="w-full h-[73px] xl:h-auto break-all">
+                                                <h2 class="overflow-hidden font_title_bold_md xl:font_title_bold_lg content_secondary text-ellipsis-1">[일러스트/배경화면] 눈다람 집게</h2>
+                                                <p class="mt-[4px] mb-[18px] xl:mt-[6px] overflow-hidden font_label_regular_lg content_quaternary text-ellipsis-1 xl:text-ellipsis-2">멤버공개 글입니다.</p>
+                                            </div>
+                                            <div class="shrink-0 relative w-[72px] md:w-[90px] h-[72px] md:h-[90px] rounded-[8px]">
+                                                <img src="https://steadio.co/_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F72acd6af-4b54-46f0-a6bb-c03cd153c5e1.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&w=128&q=75" alt="[일러스트/배경화면] 눈다람 집게" sizes="(max-width: 500px) 72px, 90px" decoding="async" data-nimg="fill" class="rounded-[8px]" loading="lazy" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+                                                <div class="absolute top-0 left-0 w-full h-full border border_black_opacity rounded-[8px]"></div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="flex items-center mt-[12px]">
+                                                <div class="font_label_regular_md flex items-center gap-x-[2px]">
+                                                    <span class="content_secondary break-all line-clamp-1 lg:max-w-full">똘망똘망 다람이</span>
+                                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[8px] h-[8px] content_disabled">
+                                                        <circle cx="12" cy="12" r="4"></circle>
+                                                    </svg>
+                                                    <span class="shrink-0 content_quaternary">2024. 1. 11.</span>
+                                                </div>
+                                            </div>
+                                            <div class="flex items-center mt-[3px]">
+                                                <div class="font_label_regular_md flex items-center gap-x-[4px]">
+                                                    <svg width="16" height="12" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary mt-[6px]">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.603 6c-.504-.632-1.347-1.59-2.407-2.436C10.92 2.546 9.468 1.8 8.001 1.8s-2.92.746-4.195 1.764C2.746 4.41 1.903 5.368 1.399 6c.504.632 1.347 1.59 2.407 2.435C5.082 9.454 6.534 10.2 8 10.2s2.92-.746 4.195-1.765C13.256 7.59 14.1 6.632 14.603 6Zm1.204.405a.666.666 0 0 0 0-.81C14.86 4.338 11.723.6 8.002.6 4.278.6 1.142 4.34.194 5.594a.666.666 0 0 0 0 .811C1.142 7.661 4.278 11.4 8.001 11.4c3.723 0 6.859-3.74 7.806-4.995Z" fill="#8A8A8B"></path>
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.896 5.925a2.925 2.925 0 1 1-5.85 0 2.925 2.925 0 0 1 5.85 0ZM7.97 7.65a1.725 1.725 0 1 0 0-3.45 1.725 1.725 0 0 0 0 3.45Z" fill="#8A8A8B"></path>
+                                                    </svg>
+                                                    <span class="shrink-0 content_quaternary">49</span>
+                                                    <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary">
+                                                        <path clip-rule="evenodd" d="M8.144 13.563v2l2.543-2h2.396a2.74 2.74 0 0 0 2.741-2.74V7.073a2.74 2.74 0 0 0-2.74-2.74h-6.01a2.74 2.74 0 0 0-2.74 2.74v4.012a2.477 2.477 0 0 0 2.477 2.477h1.333Zm-.104 3.778a.815.815 0 0 1-1.23-.702v-1.743A3.81 3.81 0 0 1 3 11.086V7.074A4.074 4.074 0 0 1 7.074 3h6.01a4.074 4.074 0 0 1 4.073 4.074v3.748a4.074 4.074 0 0 1-4.074 4.074h-1.935L8.04 17.341Z"></path>
+                                                        <path d="M8.167 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0ZM10.667 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0ZM13.167 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0Z"></path>
+                                                    </svg>
+                                                    <span class="shrink-0 content_quaternary">6</span
+                                                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 5.406 8.616 4.141c-1.383-1.266-3.682-.982-4.941.422-1.581 1.687-1.582 4.543.092 6.328l5.535 5.487a.988.988 0 0 0 1.396 0l5.535-5.487c1.674-1.785 1.674-4.64.092-6.328-1.259-1.404-3.558-1.688-4.941-.422L10 5.406Zm2.284-.281L10 7.214l-2.284-2.09c-.75-.685-2.203-.615-3.049.329l-.01.01-.01.011c-1.079 1.152-1.117 3.198.077 4.49L10 15.191l5.276-5.229c1.194-1.291 1.156-3.336.076-4.489l-.01-.01-.01-.011c-.846-.944-2.299-1.014-3.048-.328Z"></path>
+                                                    </svg>
+                                                    <span class="shrink-0 content_quaternary">14</span>
+                                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[8px] h-[8px] content_disabled">
+                                                        <circle cx="12" cy="12" r="4"></circle>
+                                                    </svg>
+                                                    <span class="shrink-0 content_quaternary">멤버 공개</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="py-[20px] border-t first:pt-[8px] first:border-0 border_secondary" style="list-style-type: none;">
+                                <div>
+                                    <button aria-label="post card" class="block text-left w-full" type="button">
+                                        <div class="flex gap-x-[16px]">
+                                            <div class="w-full h-[73px] xl:h-auto break-all">
+                                                <h2 class="overflow-hidden font_title_bold_md xl:font_title_bold_lg content_secondary text-ellipsis-1">[이모티콘] &lt;똘망똘망 쟈근 다람이 2&gt; 1월 18일(목) 출시 예정</h2>
+                                                <p class="mt-[4px] mb-[18px] xl:mt-[6px] overflow-hidden font_label_regular_lg content_quaternary text-ellipsis-1 xl:text-ellipsis-2">다람이님들, 안녕하세요. &lt;똘망똘망 쟈근 다람이 2&gt;가 1월 18일(목)에 출시될 예정입니다. &lt;똘망똘망 다람이의 회사생활&gt;도 최종 검수가 끝났습니다. 출시 일정이 나오면 바로 공유하도록 하겠습니다.</p>
+                                            </div>
+                                            <div class="shrink-0 relative w-[72px] md:w-[90px] h-[72px] md:h-[90px] rounded-[8px]">
+                                                <img src="https://steadio.co/_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F3263c98a-7b46-403e-a986-4e28d4f354e8.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&w=128&q=75" alt="[이모티콘] <똘망똘망 쟈근 다람이 2> 1월 18일(목) 출시 예정" sizes="(max-width: 500px) 72px, 90px" decoding="async" data-nimg="fill" class="rounded-[8px]" loading="lazy" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+                                                <div class="absolute top-0 left-0 w-full h-full border border_black_opacity rounded-[8px]"></div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="flex items-center mt-[12px]">
+                                                <div class="font_label_regular_md flex items-center gap-x-[2px]">
+                                                    <span class="content_secondary break-all line-clamp-1 lg:max-w-full">똘망똘망 다람이</span>
+                                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[8px] h-[8px] content_disabled">
+                                                        <circle cx="12" cy="12" r="4"></circle>
+                                                    </svg>
+                                                    <span class="shrink-0 content_quaternary">2024. 1. 10.</span>
+                                                </div>
+                                            </div>
+                                            <div class="flex items-center mt-[3px]">
+                                                <div class="font_label_regular_md flex items-center gap-x-[4px]">
+                                                    <svg width="16" height="12" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary mt-[6px]">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.603 6c-.504-.632-1.347-1.59-2.407-2.436C10.92 2.546 9.468 1.8 8.001 1.8s-2.92.746-4.195 1.764C2.746 4.41 1.903 5.368 1.399 6c.504.632 1.347 1.59 2.407 2.435C5.082 9.454 6.534 10.2 8 10.2s2.92-.746 4.195-1.765C13.256 7.59 14.1 6.632 14.603 6Zm1.204.405a.666.666 0 0 0 0-.81C14.86 4.338 11.723.6 8.002.6 4.278.6 1.142 4.34.194 5.594a.666.666 0 0 0 0 .811C1.142 7.661 4.278 11.4 8.001 11.4c3.723 0 6.859-3.74 7.806-4.995Z" fill="#8A8A8B"></path>
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.896 5.925a2.925 2.925 0 1 1-5.85 0 2.925 2.925 0 0 1 5.85 0ZM7.97 7.65a1.725 1.725 0 1 0 0-3.45 1.725 1.725 0 0 0 0 3.45Z" fill="#8A8A8B"></path>
+                                                    </svg>
+                                                    <span class="shrink-0 content_quaternary">150</span>
+                                                    <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary">
+                                                        <path clip-rule="evenodd" d="M8.144 13.563v2l2.543-2h2.396a2.74 2.74 0 0 0 2.741-2.74V7.073a2.74 2.74 0 0 0-2.74-2.74h-6.01a2.74 2.74 0 0 0-2.74 2.74v4.012a2.477 2.477 0 0 0 2.477 2.477h1.333Zm-.104 3.778a.815.815 0 0 1-1.23-.702v-1.743A3.81 3.81 0 0 1 3 11.086V7.074A4.074 4.074 0 0 1 7.074 3h6.01a4.074 4.074 0 0 1 4.073 4.074v3.748a4.074 4.074 0 0 1-4.074 4.074h-1.935L8.04 17.341Z"></path>
+                                                        <path d="M8.167 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0ZM10.667 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0ZM13.167 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0Z"></path>
+                                                    </svg>
+                                                    <span class="shrink-0 content_quaternary">11</span>
+                                                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 5.406 8.616 4.141c-1.383-1.266-3.682-.982-4.941.422-1.581 1.687-1.582 4.543.092 6.328l5.535 5.487a.988.988 0 0 0 1.396 0l5.535-5.487c1.674-1.785 1.674-4.64.092-6.328-1.259-1.404-3.558-1.688-4.941-.422L10 5.406Zm2.284-.281L10 7.214l-2.284-2.09c-.75-.685-2.203-.615-3.049.329l-.01.01-.01.011c-1.079 1.152-1.117 3.198.077 4.49L10 15.191l5.276-5.229c1.194-1.291 1.156-3.336.076-4.489l-.01-.01-.01-.011c-.846-.944-2.299-1.014-3.048-.328Z"></path>
+                                                    </svg>
+                                                    <span class="shrink-0 content_quaternary">9</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="border-t border_secondary"></div>
+                    </ul>
+                </div>
+                <div>
+                    <div class="pt-[40px]">
+                        <h4 class="font_label_bold_xl content_primary mb-[16px]">멤버십</h4>
+                        <ul class="flex flex-wrap gap-[16px] w-full">
+                            <li class="w-full" style="list-style: none;">
+                                <div class="flex col-span-full w-full">
+                                    <div class="flex w-full border-[1px] rounded-[16px] border_primary sm:p-[32px] p-[24px]">
+                                        <div class="flex flex-wrap w-[600px]">
+                                            <div class="w-2/5 hidden sm:block text-left">
+                                                <div class="sm:pr-[32px]">
+                                                    <h4 class="font_title_bold_sm content_accent mb-[2px] max-w-[210px] truncate">다람이매니아</h4>
+                                                    <div class="flex">
+                                                        <span class="font_headline_bold_sm content_primary">
+                                                            <strong class="font_headline_bold_lg content_primary">
+                                                                2,000원
+                                                            </strong>
+                                                            /월
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font_body_regular_md content_tertiary w-full max-h-[60px] mt-[14px] text-ellipsis-3 line-clamp-2">멤버십이 많아지면 다람이를 많이 그릴 수밖에 없겠지요...</p>
+                                                    </div>
+                                                    <div class="mt-[18px] text-left">
+                                                        <span class="content_accent font_label_bold_sm">101명 가입중</span>
+                                                    </div>
+                                                </div>
+                                                <div class="shrink-0 mt-[20px]">
+                                                    <button aria-label="button" class="relative flex justify-center items-center font_button_bold_md  h-[32px] rounded-[16px] content_primary_inverse surface_accent hover:surface_accent_active active:surface_accent_active disabled:surface_disabled px-[16px]  false disabled:content_disabled" type="button">가입</button>
+                                                </div>
+                                            </div>
+                                            <div class="w-full sm:hidden block">
+                                                <div class="flex flex-wrap text-left">
+                                                    <div class="w-2/3">
+                                                        <h4 class="font_title_bold_sm content_accent mb-[2px] max-w-[210px] truncate">다람이매니아</h4>
+                                                        <div class="flex">
+                                                            <span class="font_headline_bold_sm content_primary">
+                                                                <strong class="font_headline_bold_lg content_primary">2,000원</strong>
+                                                                /월
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="w-1/3">
+                                                        <div class="flex justify-end">
+                                                            <div class="shrink-0 mt-[20px]">
+                                                                <button aria-label="button" class="relative flex justify-center items-center font_button_bold_md  h-[32px] rounded-[16px] content_primary_inverse surface_accent hover:surface_accent_active active:surface_accent_active disabled:surface_disabled px-[16px]  false disabled:content_disabled" type="button">가입</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mt-[-8px]">
+                                                        <p class="font_body_regular_md content_tertiary w-full max-h-[60px] mt-[14px] text-ellipsis-3 line-clamp-2">멤버십이 많아지면 다람이를 많이 그릴 수밖에 없겠지요...</p>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-[8px] text-left">
+                                                    <span class="content_accent font_label_bold_sm">
+                                                        101명 가입중
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="w-full sm:w-3/5 text-left">
+                                                <div class="h-full sm:border-l-[1px] sm:border-t-[0px] justify-between col-span-8 border-t-[1px] border_secondary grow-[1] sm:mt-0 mt-[14px]">
+                                                    <div class="sm:pl-[32px]">
+                                                        <div class="font_title_bold_md content_primary mb-[16px] invisible sm:visible">혜택</div>
+                                                        <ul class="mt-[-22px] sm:mt-0">
+                                                            <li class="flex items-start mb-[8px] font_body_regular_md content_primary break-all">
+                                                                <div class="basis-[20px]">
+                                                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-[20px] w-[20px] content_accent mr-[9px]">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.702 7.288a1 1 0 0 1 .01 1.414l-8.59 8.723-5.834-5.923a1 1 0 0 1 1.424-1.404l4.41 4.477 7.166-7.277a1 1 0 0 1 1.414-.01Z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                짧은 만화, 아트웍 등 독점 공개 콘텐츠
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>    
-            <div>
-                <h4 class="font_label_bold_xl content_primary mb-[16px]">
-                    <div class="mt-[40px] flex items-center justify-between">
-                        <span>최근 포스트</span>
-                        <a class="font_label_regular_lg content_quaternary" href="/creator/daram/posts">전체보기</a>
+                <div class="pt-[40px]">
+                    <h4 class="font_label_bold_xl content_primary mb-[16px]">소셜 미디어</h4>
+                    <div class="flex items-center gap-x-[12px]">
+                        <div class="shrink-0 w-[48px] h-[48px] border border_primary rounded-full flex items-center justify-center">
+                            <a href="https://twitter.com/jessoochipmunk" rel="noreferrer" target="_blank">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[24px] h-[24px]">
+                                    <path d="M8.66 19.333c-2.158 0-4.168-.627-5.86-1.71 1.437.094 3.972-.129 5.549-1.633-2.372-.109-3.442-1.928-3.582-2.706.202.078 1.163.171 1.706-.047-2.73-.684-3.148-3.079-3.055-3.81.512.358 1.38.482 1.721.451-2.542-1.82-1.628-4.556-1.178-5.147 1.825 2.528 4.56 3.948 7.943 4.027a3.91 3.91 0 0 1-.097-.87A3.882 3.882 0 0 1 15.683 4a3.86 3.86 0 0 1 2.834 1.235c.748-.175 1.873-.585 2.422-.94-.277.996-1.14 1.826-1.662 2.134.005.01-.004-.01 0 0 .459-.07 1.7-.308 2.19-.64-.243.559-1.158 1.488-1.909 2.009.14 6.16-4.574 11.535-10.899 11.535Z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="shrink-0 w-[48px] h-[48px] border border_primary rounded-full flex items-center justify-center">
+                            <a href="https://www.instagram.com/jessoo.chipmunk" rel="noreferrer" target="_blank">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[24px] h-[24px]">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.005 16.875c2.763 0 5.003-2.22 5.003-4.958 0-2.739-2.24-4.959-5.002-4.959-2.763 0-5.003 2.22-5.003 4.959 0 2.738 2.24 4.958 5.002 4.958Zm0-1.983c1.658 0 3.002-1.332 3.002-2.975s-1.344-2.975-3.002-2.975c-1.657 0-3.001 1.332-3.001 2.975s1.344 2.975 3.002 2.975Z"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 11.52c0-3.332 0-4.998.654-6.271a5.977 5.977 0 0 1 2.624-2.6C6.562 2 8.243 2 11.605 2h.8c3.363 0 5.044 0 6.328.649a5.977 5.977 0 0 1 2.624 2.6c.654 1.273.654 2.939.654 6.271v.793c0 3.333 0 4.999-.654 6.272a5.977 5.977 0 0 1-2.624 2.6c-1.284.648-2.965.648-6.327.648h-.8c-3.363 0-5.044 0-6.328-.648a5.977 5.977 0 0 1-2.624-2.6C2 17.312 2 15.645 2 12.313v-.793Zm9.605-7.537h.8c1.715 0 2.88.002 3.78.075.878.07 1.327.2 1.64.358.753.38 1.365.987 1.749 1.733.16.31.289.755.36 1.625.074.892.076 2.047.076 3.746v.793c0 1.7-.002 2.854-.075 3.747-.072.87-.202 1.314-.361 1.624a3.985 3.985 0 0 1-1.75 1.734c-.312.158-.761.287-1.638.358-.901.073-2.066.074-3.78.074h-.8c-1.715 0-2.88-.002-3.78-.075-.878-.07-1.327-.2-1.64-.357a3.985 3.985 0 0 1-1.749-1.734c-.16-.31-.29-.755-.36-1.624C4.002 15.167 4 14.012 4 12.313v-.793c0-1.699.002-2.854.075-3.746.072-.87.202-1.315.361-1.625a3.985 3.985 0 0 1 1.75-1.733c.312-.158.76-.287 1.638-.358.9-.073 2.066-.075 3.78-.075Z"></path>
+                                    <path d="M18.059 6.916c0 .552-.452 1-1.009 1a1.005 1.005 0 0 1-1.009-1c0-.552.452-1 1.01-1 .556 0 1.008.448 1.008 1Z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="shrink-0 w-[48px] h-[48px] border border_primary rounded-full flex items-center justify-center">
+                            <a href="https://www.youtube.com/@daramdaramdaram" rel="noreferrer" target="_blank">
+                                <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[24px] h-[24px]">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.817 4.236c-1.414.073-2.55 1.24-2.642 2.727C2.087 8.39 2 10.143 2 11.52s.087 3.13.175 4.556c.091 1.487 1.228 2.653 2.642 2.727 2.049.107 4.977.236 7.183.236 2.206 0 5.134-.13 7.183-.236 1.414-.074 2.55-1.24 2.642-2.727.088-1.426.175-3.18.175-4.556s-.087-3.13-.175-4.556c-.091-1.488-1.228-2.654-2.642-2.727C17.134 4.129 14.206 4 12 4c-2.206 0-5.134.129-7.183.236Zm10.976 7.283-5.517 2.734V8.785l5.518 2.734Z" fill="#000"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                </h4>
-                <ul class="flex flex-col gap-y-[12px]">
-                    <ul class="flex flex-col col-span-full mt-[8px]">
-                        <div class="flex flex-col col-span-full"></div>
-                        <li class="py-[20px] border-t first:pt-[8px] first:border-0 border_secondary">
-                            <div>
-                                <button aria-label="post card" class="block text-left w-full" type="button">
-                                    <div class="flex gap-x-[16px]"><div class="w-full h-[73px] xl:h-auto break-all"><h2 class="overflow-hidden font_title_bold_md xl:font_title_bold_lg content_secondary text-ellipsis-1">[이모티콘] 제안 소식</h2><p class="mt-[4px] mb-[18px] xl:mt-[6px] overflow-hidden font_label_regular_lg 
-                content_quaternary text-ellipsis-1 xl:text-ellipsis-2">멤버공개 글입니다.</p></div><div class="shrink-0 relative w-[72px] md:w-[90px] h-[72px] md:h-[90px] rounded-[8px]"><img alt="[이모티콘] 제안 소식" sizes="(max-width: 500px) 72px, 90px" srcset="/_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2Ff2841959-7a0e-408a-91a5-820fbfa8e20c.png%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=16&amp;q=75 16w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2Ff2841959-7a0e-408a-91a5-820fbfa8e20c.png%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=32&amp;q=75 32w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2Ff2841959-7a0e-408a-91a5-820fbfa8e20c.png%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=48&amp;q=75 48w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2Ff2841959-7a0e-408a-91a5-820fbfa8e20c.png%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=64&amp;q=75 64w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2Ff2841959-7a0e-408a-91a5-820fbfa8e20c.png%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=96&amp;q=75 96w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2Ff2841959-7a0e-408a-91a5-820fbfa8e20c.png%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=128&amp;q=75 128w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2Ff2841959-7a0e-408a-91a5-820fbfa8e20c.png%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=256&amp;q=75 256w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2Ff2841959-7a0e-408a-91a5-820fbfa8e20c.png%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=384&amp;q=75 384w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2Ff2841959-7a0e-408a-91a5-820fbfa8e20c.png%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=500&amp;q=75 500w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2Ff2841959-7a0e-408a-91a5-820fbfa8e20c.png%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=768&amp;q=75 768w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2Ff2841959-7a0e-408a-91a5-820fbfa8e20c.png%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=1024&amp;q=75 1024w" src="/_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2Ff2841959-7a0e-408a-91a5-820fbfa8e20c.png%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=1024&amp;q=75" decoding="async" data-nimg="fill" class="rounded-[8px]" loading="lazy" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"><div class="absolute top-0 left-0 w-full h-full border border_black_opacity rounded-[8px]"></div></div></div><div><div class="flex items-center mt-[12px]"><div class="font_label_regular_md flex items-center gap-x-[2px]"><span class="content_secondary break-all line-clamp-1 lg:max-w-full">똘망똘망 다람이</span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[8px] h-[8px] content_disabled"><circle cx="12" cy="12" r="4"></circle></svg><span class="shrink-0 content_quaternary">2024. 1. 16.</span></div></div><div class="flex items-center mt-[3px]"><div class="font_label_regular_md flex items-center gap-x-[4px]"><svg width="16" height="12" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary mt-[6px]"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.603 6c-.504-.632-1.347-1.59-2.407-2.436C10.92 2.546 9.468 1.8 8.001 1.8s-2.92.746-4.195 1.764C2.746 4.41 1.903 5.368 1.399 6c.504.632 1.347 1.59 2.407 2.435C5.082 9.454 6.534 10.2 8 10.2s2.92-.746 4.195-1.765C13.256 7.59 14.1 6.632 14.603 6Zm1.204.405a.666.666 0 0 0 0-.81C14.86 4.338 11.723.6 8.002.6 4.278.6 1.142 4.34.194 5.594a.666.666 0 0 0 0 .811C1.142 7.661 4.278 11.4 8.001 11.4c3.723 0 6.859-3.74 7.806-4.995Z" fill="#8A8A8B"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M10.896 5.925a2.925 2.925 0 1 1-5.85 0 2.925 2.925 0 0 1 5.85 0ZM7.97 7.65a1.725 1.725 0 1 0 0-3.45 1.725 1.725 0 0 0 0 3.45Z" fill="#8A8A8B"></path></svg><span class="shrink-0 content_quaternary">46</span><svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary"><path clip-rule="evenodd" d="M8.144 13.563v2l2.543-2h2.396a2.74 2.74 0 0 0 2.741-2.74V7.073a2.74 2.74 0 0 0-2.74-2.74h-6.01a2.74 2.74 0 0 0-2.74 2.74v4.012a2.477 2.477 0 0 0 2.477 2.477h1.333Zm-.104 3.778a.815.815 0 0 1-1.23-.702v-1.743A3.81 3.81 0 0 1 3 11.086V7.074A4.074 4.074 0 0 1 7.074 3h6.01a4.074 4.074 0 0 1 4.073 4.074v3.748a4.074 4.074 0 0 1-4.074 4.074h-1.935L8.04 17.341Z"></path><path d="M8.167 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0ZM10.667 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0ZM13.167 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0Z"></path></svg><span class="shrink-0 content_quaternary">6</span><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 5.406 8.616 4.141c-1.383-1.266-3.682-.982-4.941.422-1.581 1.687-1.582 4.543.092 6.328l5.535 5.487a.988.988 0 0 0 1.396 0l5.535-5.487c1.674-1.785 1.674-4.64.092-6.328-1.259-1.404-3.558-1.688-4.941-.422L10 5.406Zm2.284-.281L10 7.214l-2.284-2.09c-.75-.685-2.203-.615-3.049.329l-.01.01-.01.011c-1.079 1.152-1.117 3.198.077 4.49L10 15.191l5.276-5.229c1.194-1.291 1.156-3.336.076-4.489l-.01-.01-.01-.011c-.846-.944-2.299-1.014-3.048-.328Z"></path></svg><span class="shrink-0 content_quaternary">13</span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[8px] h-[8px] content_disabled"><circle cx="12" cy="12" r="4"></circle></svg><span class="shrink-0 content_quaternary">멤버 공개</span></div></div></div></button></div></li><li class="py-[20px] border-t first:pt-[8px] first:border-0 border_secondary"><div><button aria-label="post card" class="block text-left w-full" type="button"><div class="flex gap-x-[16px]"><div class="w-full h-[73px] xl:h-auto break-all"><h2 class="overflow-hidden font_title_bold_md xl:font_title_bold_lg content_secondary text-ellipsis-1">[일러스트/배경화면] 눈다람 집게</h2><p class="mt-[4px] mb-[18px] xl:mt-[6px] overflow-hidden font_label_regular_lg 
-                content_quaternary text-ellipsis-1 xl:text-ellipsis-2">멤버공개 글입니다.</p></div><div class="shrink-0 relative w-[72px] md:w-[90px] h-[72px] md:h-[90px] rounded-[8px]"><img alt="[일러스트/배경화면] 눈다람 집게" sizes="(max-width: 500px) 72px, 90px" srcset="/_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F72acd6af-4b54-46f0-a6bb-c03cd153c5e1.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=16&amp;q=75 16w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F72acd6af-4b54-46f0-a6bb-c03cd153c5e1.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=32&amp;q=75 32w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F72acd6af-4b54-46f0-a6bb-c03cd153c5e1.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=48&amp;q=75 48w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F72acd6af-4b54-46f0-a6bb-c03cd153c5e1.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=64&amp;q=75 64w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F72acd6af-4b54-46f0-a6bb-c03cd153c5e1.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=96&amp;q=75 96w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F72acd6af-4b54-46f0-a6bb-c03cd153c5e1.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=128&amp;q=75 128w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F72acd6af-4b54-46f0-a6bb-c03cd153c5e1.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=256&amp;q=75 256w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F72acd6af-4b54-46f0-a6bb-c03cd153c5e1.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=384&amp;q=75 384w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F72acd6af-4b54-46f0-a6bb-c03cd153c5e1.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=500&amp;q=75 500w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F72acd6af-4b54-46f0-a6bb-c03cd153c5e1.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=768&amp;q=75 768w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F72acd6af-4b54-46f0-a6bb-c03cd153c5e1.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=1024&amp;q=75 1024w" src="/_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F72acd6af-4b54-46f0-a6bb-c03cd153c5e1.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=1024&amp;q=75" decoding="async" data-nimg="fill" class="rounded-[8px]" loading="lazy" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"><div class="absolute top-0 left-0 w-full h-full border border_black_opacity rounded-[8px]"></div></div></div><div><div class="flex items-center mt-[12px]"><div class="font_label_regular_md flex items-center gap-x-[2px]"><span class="content_secondary break-all line-clamp-1 lg:max-w-full">똘망똘망 다람이</span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[8px] h-[8px] content_disabled"><circle cx="12" cy="12" r="4"></circle></svg><span class="shrink-0 content_quaternary">2024. 1. 11.</span></div></div><div class="flex items-center mt-[3px]"><div class="font_label_regular_md flex items-center gap-x-[4px]"><svg width="16" height="12" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary mt-[6px]"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.603 6c-.504-.632-1.347-1.59-2.407-2.436C10.92 2.546 9.468 1.8 8.001 1.8s-2.92.746-4.195 1.764C2.746 4.41 1.903 5.368 1.399 6c.504.632 1.347 1.59 2.407 2.435C5.082 9.454 6.534 10.2 8 10.2s2.92-.746 4.195-1.765C13.256 7.59 14.1 6.632 14.603 6Zm1.204.405a.666.666 0 0 0 0-.81C14.86 4.338 11.723.6 8.002.6 4.278.6 1.142 4.34.194 5.594a.666.666 0 0 0 0 .811C1.142 7.661 4.278 11.4 8.001 11.4c3.723 0 6.859-3.74 7.806-4.995Z" fill="#8A8A8B"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M10.896 5.925a2.925 2.925 0 1 1-5.85 0 2.925 2.925 0 0 1 5.85 0ZM7.97 7.65a1.725 1.725 0 1 0 0-3.45 1.725 1.725 0 0 0 0 3.45Z" fill="#8A8A8B"></path></svg><span class="shrink-0 content_quaternary">49</span><svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary"><path clip-rule="evenodd" d="M8.144 13.563v2l2.543-2h2.396a2.74 2.74 0 0 0 2.741-2.74V7.073a2.74 2.74 0 0 0-2.74-2.74h-6.01a2.74 2.74 0 0 0-2.74 2.74v4.012a2.477 2.477 0 0 0 2.477 2.477h1.333Zm-.104 3.778a.815.815 0 0 1-1.23-.702v-1.743A3.81 3.81 0 0 1 3 11.086V7.074A4.074 4.074 0 0 1 7.074 3h6.01a4.074 4.074 0 0 1 4.073 4.074v3.748a4.074 4.074 0 0 1-4.074 4.074h-1.935L8.04 17.341Z"></path><path d="M8.167 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0ZM10.667 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0ZM13.167 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0Z"></path></svg><span class="shrink-0 content_quaternary">6</span><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 5.406 8.616 4.141c-1.383-1.266-3.682-.982-4.941.422-1.581 1.687-1.582 4.543.092 6.328l5.535 5.487a.988.988 0 0 0 1.396 0l5.535-5.487c1.674-1.785 1.674-4.64.092-6.328-1.259-1.404-3.558-1.688-4.941-.422L10 5.406Zm2.284-.281L10 7.214l-2.284-2.09c-.75-.685-2.203-.615-3.049.329l-.01.01-.01.011c-1.079 1.152-1.117 3.198.077 4.49L10 15.191l5.276-5.229c1.194-1.291 1.156-3.336.076-4.489l-.01-.01-.01-.011c-.846-.944-2.299-1.014-3.048-.328Z"></path></svg><span class="shrink-0 content_quaternary">14</span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[8px] h-[8px] content_disabled"><circle cx="12" cy="12" r="4"></circle></svg><span class="shrink-0 content_quaternary">멤버 공개</span></div></div></div></button></div></li><li class="py-[20px] border-t first:pt-[8px] first:border-0 border_secondary"><div><button aria-label="post card" class="block text-left w-full" type="button"><div class="flex gap-x-[16px]"><div class="w-full h-[73px] xl:h-auto break-all"><h2 class="overflow-hidden font_title_bold_md xl:font_title_bold_lg content_secondary text-ellipsis-1">[이모티콘] &lt;똘망똘망 쟈근 다람이 2&gt; 1월 18일(목) 출시 예정</h2><p class="mt-[4px] mb-[18px] xl:mt-[6px] overflow-hidden font_label_regular_lg 
-                content_quaternary text-ellipsis-1 xl:text-ellipsis-2">다람이님들, 안녕하세요. &lt;똘망똘망 쟈근 다람이 2&gt;가 1월 18일(목)에 출시될 예정입니다. &lt;똘망똘망 다람이의 회사생활&gt;도 최종 검수가 끝났습니다. 출시 일정이 나오면 바로 공유하도록 하겠습니다.</p></div><div class="shrink-0 relative w-[72px] md:w-[90px] h-[72px] md:h-[90px] rounded-[8px]"><img alt="[이모티콘] <똘망똘망 쟈근 다람이 2> 1월 18일(목) 출시 예정" sizes="(max-width: 500px) 72px, 90px" srcset="/_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F3263c98a-7b46-403e-a986-4e28d4f354e8.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=16&amp;q=75 16w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F3263c98a-7b46-403e-a986-4e28d4f354e8.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=32&amp;q=75 32w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F3263c98a-7b46-403e-a986-4e28d4f354e8.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=48&amp;q=75 48w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F3263c98a-7b46-403e-a986-4e28d4f354e8.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=64&amp;q=75 64w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F3263c98a-7b46-403e-a986-4e28d4f354e8.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=96&amp;q=75 96w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F3263c98a-7b46-403e-a986-4e28d4f354e8.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=128&amp;q=75 128w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F3263c98a-7b46-403e-a986-4e28d4f354e8.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=256&amp;q=75 256w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F3263c98a-7b46-403e-a986-4e28d4f354e8.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=384&amp;q=75 384w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F3263c98a-7b46-403e-a986-4e28d4f354e8.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=500&amp;q=75 500w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F3263c98a-7b46-403e-a986-4e28d4f354e8.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=768&amp;q=75 768w, /_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F3263c98a-7b46-403e-a986-4e28d4f354e8.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=1024&amp;q=75 1024w" src="/_next/image?url=https%3A%2F%2Fsteadio.imgix.net%2Fcreator-posts%2F2b9ac7c4-1297-4603-ad5d-77635f94111b%2FcreatorPostImage%2F3263c98a-7b46-403e-a986-4e28d4f354e8.jpg%3Fauto%3Dformat%252Ccompress%26fit%3Dmax%26lossless%3Dtrue%26w%3D1240&amp;w=1024&amp;q=75" decoding="async" data-nimg="fill" class="rounded-[8px]" loading="lazy" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"><div class="absolute top-0 left-0 w-full h-full border border_black_opacity rounded-[8px]"></div></div></div><div><div class="flex items-center mt-[12px]"><div class="font_label_regular_md flex items-center gap-x-[2px]"><span class="content_secondary break-all line-clamp-1 lg:max-w-full">똘망똘망 다람이</span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-[8px] h-[8px] content_disabled"><circle cx="12" cy="12" r="4"></circle></svg><span class="shrink-0 content_quaternary">2024. 1. 10.</span></div></div><div class="flex items-center mt-[3px]"><div class="font_label_regular_md flex items-center gap-x-[4px]"><svg width="16" height="12" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary mt-[6px]"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.603 6c-.504-.632-1.347-1.59-2.407-2.436C10.92 2.546 9.468 1.8 8.001 1.8s-2.92.746-4.195 1.764C2.746 4.41 1.903 5.368 1.399 6c.504.632 1.347 1.59 2.407 2.435C5.082 9.454 6.534 10.2 8 10.2s2.92-.746 4.195-1.765C13.256 7.59 14.1 6.632 14.603 6Zm1.204.405a.666.666 0 0 0 0-.81C14.86 4.338 11.723.6 8.002.6 4.278.6 1.142 4.34.194 5.594a.666.666 0 0 0 0 .811C1.142 7.661 4.278 11.4 8.001 11.4c3.723 0 6.859-3.74 7.806-4.995Z" fill="#8A8A8B"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M10.896 5.925a2.925 2.925 0 1 1-5.85 0 2.925 2.925 0 0 1 5.85 0ZM7.97 7.65a1.725 1.725 0 1 0 0-3.45 1.725 1.725 0 0 0 0 3.45Z" fill="#8A8A8B"></path></svg><span class="shrink-0 content_quaternary">150</span><svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary"><path clip-rule="evenodd" d="M8.144 13.563v2l2.543-2h2.396a2.74 2.74 0 0 0 2.741-2.74V7.073a2.74 2.74 0 0 0-2.74-2.74h-6.01a2.74 2.74 0 0 0-2.74 2.74v4.012a2.477 2.477 0 0 0 2.477 2.477h1.333Zm-.104 3.778a.815.815 0 0 1-1.23-.702v-1.743A3.81 3.81 0 0 1 3 11.086V7.074A4.074 4.074 0 0 1 7.074 3h6.01a4.074 4.074 0 0 1 4.073 4.074v3.748a4.074 4.074 0 0 1-4.074 4.074h-1.935L8.04 17.341Z"></path><path d="M8.167 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0ZM10.667 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0ZM13.167 9a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0Z"></path></svg><span class="shrink-0 content_quaternary">11</span><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] content_quaternary"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 5.406 8.616 4.141c-1.383-1.266-3.682-.982-4.941.422-1.581 1.687-1.582 4.543.092 6.328l5.535 5.487a.988.988 0 0 0 1.396 0l5.535-5.487c1.674-1.785 1.674-4.64.092-6.328-1.259-1.404-3.558-1.688-4.941-.422L10 5.406Zm2.284-.281L10 7.214l-2.284-2.09c-.75-.685-2.203-.615-3.049.329l-.01.01-.01.011c-1.079 1.152-1.117 3.198.077 4.49L10 15.191l5.276-5.229c1.194-1.291 1.156-3.336.076-4.489l-.01-.01-.01-.011c-.846-.944-2.299-1.014-3.048-.328Z"></path></svg><span class="shrink-0 content_quaternary">9</span></div></div></div></button></div></li></ul><div class="border-t border_secondary"></div></ul></div>
-        <div>
-
-    </main>
+                </div>
+                <div class="mb-[24px]"></div>
+            </div>
+            <div>
+                <div class="z-20 fixed bottom-[20px] right-[18px] p-[18px] w-[56px] h-[56px] bg-[#7E69FE] shadow-md rounded-full text-white">
+                    <button aria-label="button" type="button">
+                        <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.653 1.7c-1.263-1.2-3.31-1.2-4.574 0l-1.372 1.303 4.574 4.345 1.372-1.304a2.965 2.965 0 0 0 0-4.344ZM15.634 8.912l-4.573-4.345-8.743 8.306a.099.099 0 0 0-.023.034l-1.806 4.46c-.402.994.626 1.97 1.672 1.588l4.694-1.715a.105.105 0 0 0 .036-.022l8.743-8.306Z" fill="#fff"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
