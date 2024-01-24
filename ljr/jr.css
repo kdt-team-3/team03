@@ -600,7 +600,7 @@ textarea {
 
 /* 챌린지 옆 공유버튼 */
 
-#id.element.style {
+.element.style {
     width: 50px;
     height: 50px;
 }
