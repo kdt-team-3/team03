@@ -1,5 +1,60 @@
 @import url(https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap);
 @import url(https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css);
+/* html css */
+@media (min-width: 1080px)
+html {
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 12.5px;
+}
+
+html, body {
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+:root {
+    view-transition-name: root;
+}
+
+html {
+    display: block;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+::selection {
+    background-color: #CCE2FF;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+/* body css */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
 body {
     margin: 0px;
@@ -11,22 +66,60 @@ body {
     font-size: 14px;
     line-height: 1.7em;
     color: rgba(0, 0, 0, 0.87);
-    /* font-smoothing: antialiased; */
+    font-smoothing: antialiased;
 }
 
 body {
-    height: 100%;
-}
-
-* {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
+    margin: 0;
 }
 
 body {
     display: block;
-    /* margin: 8px; */
+    margin: 8px;
 }
+
+a, div {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,.1);
+}
+
+h3, p, div {
+    word-break: break-all;
+}
+
+
+/* tbb */
+
+.tbb-only-ff, .tbb-only-ff h1, .tbb-only-ff h2, .tbb-only-ff h3, .tbb-only-ff h4, .tbb-only-ff h5 {
+    font-family: 'SF Pro Text', 'Helvetica Neue', 'Segoe UI', Arial, 'NotoSansKR', sans-serif;
+}
+
+.tbb-only-ff {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100%;
+    height: 100%;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+
+}
+
+svg[Attributes Style] {
+    width: 140;
+    height: 36;
+    fill: none;
+}
+
+
+
+/* nav css */
 
 .ihPEBy {
     position: relative;
@@ -52,7 +145,7 @@ body {
         flex-direction: column;
 }
 
-.jxLqaO {
+.jxLqao {
     position: relative;
     display: flex;
     width: 100%;
@@ -197,7 +290,7 @@ body {
     user-select: none;
 }
 
-body.ehJwom {
+.ehJwom {
     padding: 0px 6px;
     min-height: 56px;
     position: relative;
@@ -231,12 +324,6 @@ body.ehJwom {
     align-items: center;
 }
 
-.goKAXE {
-    display: flex;
-    min-width: 48px;
-    transform: scale(0.5);
-}
-
 .eWDpEZ {
     padding: 0px 6px;
     min-height: 56px;
@@ -268,28 +355,9 @@ body.ehJwom {
     background: black;
     animation: 0.3s ease-in-out 0s 1 normal forwards running eclZLu;
 }
-/* 나중에 체크
 
 ::after {
 
-} */
-
-/* Border-Box */
-
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
-
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
 }
 
 .hbYMFx {
@@ -347,13 +415,6 @@ html {
     background: rgb(255, 255, 255);
 }
 
-.djIxnq {
-    background: rgb(255, 255, 255);
-    /* 패딩 나중에 체크 */
-    padding: 0px 0px 64px;
-    border-bottom: 1px solid rgb(245, 245, 245);
-}
-
 .tbb {
     font-family: 'SF Pro Text', 'Helvetica Neue', 'Segoe UI', Arial, 'NotoSansKR', sans-serif;
     font-size: 14px;
@@ -364,3 +425,11 @@ html {
     background: #FFF;
     color: #3d3d3d;
 }
+
+.djIxnq {
+    background: rgb(255, 255, 255);
+    /* 패딩 나중에 체크 */
+    padding: 0px 0px 64px;
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+
