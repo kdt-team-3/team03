@@ -311,12 +311,6 @@ button {
     padding-inline: 6px;
 }
 
-*,
-:after,
-:before {
-    box-sizing: border-box;
-    border: 0 solid #e5e7eb;
-}
 
 
 /* 메인 */
@@ -354,13 +348,6 @@ button {
     background-color: #fff;
 }
 
-*,
-:after,
-:before {
-    box-sizing: border-box;
-    border: 0 solid #e5e7eb;
-}
-
 
 
 /* div class =md:flex justify-start gap-x-[20px] */
@@ -378,14 +365,6 @@ button {
 }
 
 
-*,
-:after,
-:before {
-    box-sizing: border-box;
-    border: 0 solid #e5e7eb;
-}
-
-
 /* flex-1 px-[16px] md:px-0  이미지 크기 */
 
 .px-0 {
@@ -397,12 +376,7 @@ button {
     flex: 1 1 0%;
 }
 
-*,
-:after,
-:before {
-    box-sizing: border-box;
-    border: 0 solid #e5e7eb;
-}
+
 
 
 element.style {
@@ -428,13 +402,6 @@ element.style {
 
 .border_black_opacity {
     border-color: rgba(0, 0, 0, .1);
-}
-
-*,
-:after,
-:before {
-    box-sizing: border-box;
-    border: 0 solid #e5e7eb;
 }
 
 /* 이미지 div class="mb-[20px] w-full md:w-[380px] h-[380px] border border_black_opacity"] */
@@ -463,12 +430,6 @@ element.style {
     border-color: rgba(0, 0, 0, .1);
 }
 
-*,
-:after,
-:before {
-    box-sizing: border-box;
-    border: 0 solid #e5e7eb;
-}
 
 
 
@@ -506,12 +467,7 @@ video {
     vertical-align: middle;
 }
 
-*,
-:after,
-:before {
-    box-sizing: border-box;
-    border: 0 solid #e5e7eb;
-}
+
 
 img {
     overflow-clip-margin: content-box;
@@ -526,13 +482,6 @@ img {
 
 .flex-1 {
     flex: 1 1 0%;
-}
-
-*,
-:after,
-:before {
-    box-sizing: border-box;
-    border: 0 solid #e5e7eb;
 }
 
 
@@ -553,13 +502,6 @@ img {
     fill: #5b44ea;
 }
 
-*,
-:after,
-:before {
-    box-sizing: border-box;
-    border: 0 solid #e5e7eb;
-}
-
 /* dic class ="flex justify-between mb-[16px]" */
 
 .justify-between {
@@ -574,13 +516,6 @@ img {
     margin-bottom: 16px;
 }
 
-*,
-:after,
-:before {
-    box-sizing: border-box;
-    border: 0 solid #e5e7eb;
-}
-
 
 
 /* div class ="class="flex gap-x-[8px]"" */
@@ -592,14 +527,6 @@ img {
 .flex {
     display: flex;
 }
-
-*,
-:after,
-:before {
-    box-sizing: border-box;
-    border: 0 solid #e5e7eb;
-}
-
 
 
 
@@ -634,24 +561,18 @@ img {
     background-color: #f3f3f4;
 }
 
-*,
-:after,
-:before {
-    box-sizing: border-box;
-    border: 0 solid #e5e7eb;
-}
 
 
 
 /* 챌린지 아래 button  */
-[type=button],
+/* [type=button],
 [type=reset],
 [type=submit],
 button {
     -webkit-appearance: button;
-    /* background-color: transparent; */
+    background-color: transparent;
     background-image: none;
-}
+} */
 
 [role=button],
 button {
@@ -679,6 +600,10 @@ textarea {
 
 /* 챌린지 옆 공유버튼 */
 
+#id.element.style {
+    width: 50px;
+    height: 50px;
+}
 
 /* 작심한 달 2기 */
 
@@ -697,9 +622,62 @@ textarea {
     fill: #1d1d1e;
 }
 
+/* a태그  href="/creator/mintyrun"*/
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/*  class="mb-[16px] md:mb-[30px] flex md:p-[12px] rounded-[8px] 
+        pb-[24px] pt-[4px] border-b md:border border_black_opacity 
+        md:surface_secondary"*/
+.md\:p-\[12px\] {
+    padding: 12px;
+}
+
+.md\:border {
+    border-width: 1px;
+}
+
+.md\:mb-\[30px\] {
+    margin-bottom: 30px;
+}
+
+.md\:surface_secondary {
+    background-color: #fafafb;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+.rounded-\[8px\] {
+    border-radius: 8px;
+}
+
+.flex {
+    display: flex;
+}
+
+.border_black_opacity {
+    border-color: rgba(0, 0, 0, .1);
+}
+
 *,
 :after,
 :before {
     box-sizing: border-box;
     border: 0 solid #e5e7eb;
+}
+
+
+/* 가격 및 아래 상세보기 */
+.md\:mb-\[40px\] {
+    margin-bottom: 40px;
+}
+
+.gap-y-\[14px\] {
+    row-gap: 14px;
 }
