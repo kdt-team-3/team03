@@ -10,20 +10,107 @@ html {
 }
 
 /* body */
+body {
+    margin: 0;
+    line-height: inherit;
+}
 .overflow-x-hidden {
     overflow-x: hidden;
 }
 .h-full {
     height: 100%;
 }
-body {
-    margin: 0;
-    line-height: inherit;
-}
+
 /* nav */
-.sticky {
+.header-nav{
     position: sticky;
+    top:0;
+    left:0;
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 58px;
+    /* surface_primary */
+    background-color: #fff;
+    /* w-full */
+    width: 100%;
+    /* shrink-0 */
+    flex-shrink: 0;
+    /* flex */
+    display: flex;
+    /* items-center */
+    align-items: center;
+    /* justify-between */
+    justify-content: space-between;
 }
+
+/* logo */
+.logo{
+    /* hidden */
+    display: none;
+    /* lg:block */
+    display: block;
+    /* w-[96px] */
+    width: 96px;
+    /* content_primary */
+    color: #1d1d1e;
+    fill: #1d1d1e;    
+}
+
+.right-menu-body{
+    /* flex */
+    display: flex;
+    /* items-center */
+    align-items: center;
+    /* justify-end */
+    justify-content: flex-end;
+}
+
+
+.right-menu{
+    /* flex */
+    display: flex;
+    /* items-center */
+    align-items: center;
+    /* gap-x-[16px] */
+    column-gap: 16px;
+}
+
+/* 돋보기 버튼 */
+.search-button{
+    width: 20px;
+    height: 20px;
+}
+
+.login-button{
+    /* relative */
+    position: relative;
+    /* flex */
+    display: flex;
+    /* justify-center */
+    justify-content: center;
+    /* items-center */
+    align-items: center;
+    /* font_button_bold_md */
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    /* h-[32px] */
+    height: 32px;
+    /* rounded_16px */
+    border-radius: 16px;
+    /* conetent_secondary */
+    color: #333334;
+    fill: #333334;
+    /* surface_primary  */
+    background-color: #fff;
+    /* px-[15px] */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
 .surface_primary {
     background-color: #fff;
 }
@@ -38,10 +125,6 @@ body {
     display: flex;
 }
 
-.lg\:px-\[32px\] {
-    padding-left: 32px;
-    padding-right: 32px;
-}
 
 .gap-x-\[16px\] {
     column-gap: 16px;
@@ -50,9 +133,7 @@ body {
 .justify-between {
     justify-content: space-between;
 }
-.h-\[56px\] {
-    height: 56px;
-}
+
 .shrink-0 {
     flex-shrink: 0;
 }
@@ -284,6 +365,7 @@ button, input, optgroup, select, textarea {
     background-color: #fff;
 }
 /* 스튜디오 만들기 */
+
 .lg\:block {
     display: block;
 }
@@ -321,6 +403,7 @@ button, input, optgroup, select, textarea {
 .surface_primary_inverse {
     background-color: #1D1D1E;
 }
+
 [type=button], [type=reset], [type=submit], button {
     -webkit-appearance: button;
     background-image: none;
@@ -433,6 +516,7 @@ h1 {
     position: relative;
 }
 /* 메뉴 리스트 */
+
 .relative {
     position: relative;
 }
@@ -476,8 +560,6 @@ element.style {
 .\!w-auto {
     width: auto!important;
 }
-
-
 
 .shrink-0 {
     flex-shrink: 0;
@@ -542,4 +624,243 @@ button, input, optgroup, select, textarea {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
+}
+
+/* 이미지 틀 */
+.px-\[16px\] {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.mt-\[24px\] {
+    margin-top: 24px;
+}
+
+.mobile\:grid-cols-4 {
+    grid-template-columns: repeat(4,minmax(0,1fr));
+}
+
+.gap-x-\[29px\] {
+    column-gap: 29px;
+}
+
+.gap-y-\[32px\] {
+    row-gap: 32px;
+}
+
+.grid {
+    display: grid;
+}
+
+menu, ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+
+.w-full {
+    width: 100%;
+}
+
+.block {
+    display: block;
+}
+
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+
+    background-image: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button, select {
+    text-transform: none;
+}   
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.rounded-\[16px\] {
+    border-radius: 16px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.relative {
+    position: relative;
+}
+
+
+.border {
+    border-width: 1px;
+}
+
+.rounded-\[16px\] {
+    border-radius: 16px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.border_black_opacity {
+    border-color: rgba(0,0,0,.1);
+}   
+
+.line-clamp-1, .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.line-clamp-1 {
+    -webkit-line-clamp: 1;
+}
+
+.break-all {
+    word-break: break-all;
+}
+
+.mt-\[12px\] {
+    margin-top: 12px;
+}
+
+.font_label_bold_xl {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.content_secondary {
+    color: #333334;
+    fill: #333334;
+}
+
+.text-left {
+    text-align: left;
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+* {
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.line-clamp-1, .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.mt-\[12px\] {
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.font_label_bold_xl {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.mt-\[2px\] {
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.font_label_regular_sm {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.content_tertiary {
+    color: #666667;
+    fill: #666667;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.mt-\[4px\] {
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.font_label_regular_md {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+menu, ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content_quaternary {
+    color: #8a8a8b;
+    fill: #8a8a8b;
 }
