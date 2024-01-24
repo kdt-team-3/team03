@@ -1,18 +1,11 @@
-@import url(https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap);
-@import url(https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css);
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
 /* html css */
 
-html {
-    font-family: sans-serif;
-    font-size: 12.5px;
-}
-
-html {
-    font-size: 14px;
-}
-
-html, body {
-    height: 100%;
+::selection {
+    background-color: #CCE2FF;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 html {
@@ -22,35 +15,27 @@ html {
 }
 
 html {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
-}
-
-:root {
-    view-transition-name: root;
+    font-size: 14px;
 }
 
 html {
-    display: block;
+    font-family: sans-serif;
+    font-size: 12.5px;
 }
 
-::selection {
-    background-color: #CCE2FF;
-    color: rgba(0, 0, 0, 0.87);
+
+html {
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
+
+/* html {
+    font-family: Pretendard,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+} */
+
 
 /* body css */
-
-body {
-    -webkit-font-smoothing: antialiased;
-    /* font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; */
-}
 
 body {
     margin: 0px;
@@ -58,27 +43,13 @@ body {
     overflow-x: hidden;
     min-width: 320px;
     background: #f6f5f5;
-    font-family: 'SpoqaHanSans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-family: 'Noto Sans KR', 'SpoqaHanSans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 1.7em;
     color: rgba(0, 0, 0, 0.87);
-    font-smoothing: antialiased;
-}
-
-body {
-    margin: 0;
-}
-
-body {
-    display: block;
-    margin: 8px;
 }
 
 /* tbb */
-
-.tbb-only-ff, .tbb-only-ff h1, .tbb-only-ff h2, .tbb-only-ff h3, .tbb-only-ff h4, .tbb-only-ff h5 {
-    font-family: 'SF Pro Text', 'Helvetica Neue', 'Segoe UI', Arial, 'NotoSansKR', sans-serif;
-}
 
 .tbb-only-ff {
     display: -webkit-box;
@@ -92,17 +63,72 @@ body {
     height: 100%;
 }
 
-a, div {
-    text-decoration: none;
-    -webkit-tap-highlight-color: rgba(0,0,0,.1);
+.tbb-only-ff, .tbb-only-ff h1, .tbb-only-ff h2, .tbb-only-ff h3, .tbb-only-ff h4, .tbb-only-ff h5 {
+    font-family: 'NotoSansKR', sans-serif;
+}
+
+/* div css */
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 h3, p, div {
     word-break: break-all;
 }
 
+a, div {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,.1);
+}
 
 
+
+/* button css */
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+button {
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    cursor: default;
+}
 
 /* nav css */
 
@@ -118,28 +144,41 @@ h3, p, div {
     box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 6px;
 }
 
-.caGpys {
-        margin-top: 10px;
-        position: relative;
-        display: flex;
-        width: 100%;
-        height: auto;
-        min-height: 105px;
-        -webkit-box-align: center;
-        align-items: center;
-        flex-direction: column;
+.ihPEBy {
+    padding: 0px 16px;
 }
 
-.jxLqao {
+.ihPEBy {
+    padding: 0px 20px;
+}
+
+.caGpyS {
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 105px;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jxLqaO {
     position: relative;
     display: flex;
     width: 100%;
     min-height: 48px;
     max-height: 72px;
+    max-width: 1080px;
     -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: justify;
     justify-content: space-between;
+}
+
+.jxLqaO {
+    max-width: 1160px;
 }
 
 .dtkXPY {
@@ -154,13 +193,30 @@ h3, p, div {
     transition: scale 0.3s ease-in-out 0s;
 }
 
-.bgpTeu {
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.bgpTeU {
     display: inline-flex;
     width: auto;
     -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: center;
     justify-content: center;
+}
+
+.bgpTeU {
+    margin-right: 0px;
 }
 
 .cfcgIZ {
@@ -208,7 +264,7 @@ h3, p, div {
     cursor: pointer;
 }
 
-.fxYrre {
+.useravatar {
     position: relative;
     padding-top: 3px;
     display: inline-flex;
@@ -228,6 +284,13 @@ h3, p, div {
     background: rgb(217, 217, 217);
 }
 
+.hbaugM {
+    display: flex;
+    min-width: 48px;
+    transform: scale(0.5);
+    cursor: pointer;
+}
+
 .fXtfpK {
     margin-left: 10px;
     display: inline-flex;
@@ -238,7 +301,8 @@ h3, p, div {
     flex-shrink: 0;
 }
 
-.glPeLw {
+.elXgTt {
+    font-family: 'Noto Sans KR';
     position: relative;
     background: rgb(255, 255, 255);
     display: flex;
@@ -293,6 +357,15 @@ h3, p, div {
     cursor: pointer;
     flex-shrink: 0;
     transition: all 0.2s ease-in-out 0s;
+}
+
+.ehJwom.effect_hover:hover {
+    color: rgb(254, 95, 76);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.ehJwom:hover {
+    font-weight: bold;
 }
 
 .cGGGud {
@@ -359,6 +432,10 @@ h3, p, div {
     color: rgba(0, 0, 0, 0.3);
 }
 
+.hbYMFx {
+    margin-right: 0px;
+}
+
 .jPMsmJ {
     border: none;
     font-size: 12px;
@@ -398,6 +475,12 @@ h3, p, div {
     background: rgb(255, 255, 255);
 }
 
+.ebANNw {
+    background: rgb(255, 255, 255);
+    padding: 0px 0px 64px;
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+
 .tbb {
     font-family: 'SF Pro Text', 'Helvetica Neue', 'Segoe UI', Arial, 'NotoSansKR', sans-serif;
     font-size: 14px;
@@ -409,10 +492,102 @@ h3, p, div {
     color: #3d3d3d;
 }
 
-.djIxnq {
+.hIxvyo {
     background: rgb(255, 255, 255);
-    /* 패딩 나중에 체크 */
-    padding: 0px 0px 64px;
-    border-bottom: 1px solid rgb(245, 245, 245);
+    box-sizing: border-box;
+    position: relative;
 }
 
+.bcrykd {
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 6px 0px 0px !important;
+}
+
+.cykrmr {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px 1rem;
+}
+
+.grxtaf {
+    margin-top: 24px;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+}
+
+.hAkcXk {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 9 1 0%;
+    width: 100%;
+    height: 100%;
+    overflow: auto hidden;
+}
+
+.hAkcXk .wrap {
+    display: inline-flex;
+    padding-right: 50px;
+    padding-left: 1rem;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.bdsucs {
+    display: flex;
+    position: relative;
+    height: 34px;
+    line-height: 34px;
+    box-sizing: border-box;
+    margin: 0px 8px 0px 0px;
+    border-radius: 3px;
+    border: 1px solid rgb(230, 230, 230);
+    background: rgb(255, 255, 255);
+    color: rgb(72, 72, 72);
+    padding: 0px;
+    overflow: hidden;
+}
+
+.gZxfSN {
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0px 8px;
+    border: 0px;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    color: rgb(85, 85, 85);
+    font-weight: normal;
+}
+
+.gZxfSN .title-wrapper {
+    display: inline;
+    font-size: 1.07rem;
+    position: relative;
+}
+
+.gyEmSW {
+    right: 7px;
+    top: 50%;
+    width: 16px;
+    margin: 1px 0px 0px;
+    border: 0px;
+    background: 0px center;
+    padding: 0px;
+    outline: none;
+    font-size: 8px;
+    line-height: 0;
+    transform: translateY(-50%);
+    position: absolute !important;
+}
+
+.kPBcuc {
+    display: inline-flex;
+    align-self: center;
+}
