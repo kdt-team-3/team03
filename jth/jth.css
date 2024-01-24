@@ -1,6 +1,6 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
-/* 전체 */
+/* total */
 html {
     font-family: Pretendard,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
@@ -8,7 +8,6 @@ html {
 .hidden {
     display: none;
 }
-
 
 *, :after, :before {
     --tw-border-spacing-x: 0;
@@ -120,9 +119,23 @@ button, input, optgroup, select, textarea {
     padding: 0;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
 
+svg{
+    vertical-align: middle;
+}
 
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+    margin: 0;
+}
 
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
 
 
 
@@ -237,7 +250,7 @@ button, select {
 button, select {
     text-transform: none;
 }
-button, input, optgroup, select, textarea {
+/* button, input, optgroup, select, textarea {
     font-family: inherit;
     font-size: 100%;
     font-weight: inherit;
@@ -245,7 +258,7 @@ button, input, optgroup, select, textarea {
     color: inherit;
     margin: 0;
     padding: 0;
-}
+} */
 .lg\:block {
     display: block;
 }
@@ -280,16 +293,16 @@ button, input, optgroup, select, textarea {
     color: #1d1d1e;
     fill: #1d1d1e;
 }
-a {
+/* a {
     color: inherit;
     text-decoration: inherit;
-}
+} */
 .lg\:hidden {
     display: none;
 }
-svg{
+/* svg{
     vertical-align: middle;
-}
+} */
 .lg\:block {
     display: block;
 }
@@ -428,7 +441,11 @@ gap-\[16px\] {
 .surface_primary_inverse {
     background-color: #1d1d1e;
 }
-
+.font_title_bold_md {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
 
 
 
@@ -538,7 +555,7 @@ a {
 .h-\[44px\] {
     height: 44px;
 }
-blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+/* blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
     margin: 0;
 }
 
@@ -546,7 +563,7 @@ blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
 h1, h2, h3, h4, h5, h6 {
     font-size: inherit;
     font-weight: inherit;
-}
+} */
 
 .outline-none {
     outline: 2px solid transparent;
@@ -681,9 +698,9 @@ menu, ol, ul {
     color: #8a8a8b;
     fill: #8a8a8b;
 } */
-blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+/* blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
     margin: 0;
-}
+} */
 
 .md\:w-\[90px\] {
     width: 90px;
