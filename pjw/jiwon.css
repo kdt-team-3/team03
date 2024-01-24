@@ -472,8 +472,10 @@ b, strong {
     margin-left: 8px;
 }
 
-.fixed {
-    position: fixed;
+.font_label_bold_sm {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
 }
 
 /* *, :after, :before {
